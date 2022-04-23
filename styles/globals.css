@@ -1,9 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tous ces styles CSS vont être appliqués à toute notre application */
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: rgb(230, 230, 230);
 }
 
 a {
@@ -13,4 +21,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
 }

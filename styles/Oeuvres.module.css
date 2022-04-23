@@ -1,0 +1,11 @@
+.oeuvre{
+    padding: 2px 16px;
+    background-color: #fff;
+    display: block;
+    margin: 10px 20px;
+    border-left: 8px solid #fff;
+}
+
+.oeuvre:hover{
+    border-left: 8px solid rgb(19, 55, 201);
+}
